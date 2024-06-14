@@ -4,6 +4,8 @@ import "./assets/styles/App.css";
 import Navbar from "./assets/components/Navbar/Navbar";
 // Importação utilizando o export direto.
 import { Article } from "./assets/components/Article/Article";
+import { Counter } from "./assets/components/Counter/Counter";
+import { Form } from "./assets/components/Form/Form";
 
 import article1 from "./assets/images/article1.png";
 import article2 from "./assets/images/article2.jpg";
@@ -18,6 +20,8 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
+        <Counter />
+        <Form />
         <section id="articles">
           <Article
             title="Designing dashboards"
